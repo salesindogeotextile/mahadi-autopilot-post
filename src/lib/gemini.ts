@@ -58,8 +58,8 @@ OUTBOUND LINKING (WAJIB):
 
 CTA (WAJIB):
 Gunakan link berikut (maksimal 2-3 CTA):
-1. Konsultasi teknis: [ diskusi spesifikasi proyek ](https://primatex.co.id/konsultasi/)
-2. Permintaan harga: [ informasi harga sesuai spesifikasi proyek ](https://primatex.co.id/permintaan-harga/)
+1. Konsultasi teknis: [ diskusi spesifikasi proyek ](https://indogeotextile.com/konsultasi/)
+2. Permintaan harga: [ informasi harga sesuai spesifikasi proyek ](https://indogeotextile.com/info-harga/)
 3. WhatsApp: [ konsultasi cepat melalui WhatsApp ](https://wa.me/message/WSI7AS6VJ3SBH1)
 
 GAYA PENULISAN: 
