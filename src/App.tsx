@@ -120,7 +120,7 @@ export default function App() {
 
   const getScriptUrl = useCallback(() => {
     // @ts-ignore - import.meta.env is provided by Vite
-    return import.meta.env.VITE_GOOGLE_SCRIPT_URL || (typeof process !== 'undefined' ? process.env.GOOGLE_SCRIPT_URL : null) || "https://script.google.com/macros/s/AKfycbyfDl60LRebkl127jjcC97zdInfVefAyromVTkdG-oW_PgeduVUe_R1VFztTJhQwu-3/exec?module=post";
+    return import.meta.env.VITE_GOOGLE_SCRIPT_URL || (typeof process !== 'undefined' ? process.env.GOOGLE_SCRIPT_URL : null) || "https://script.google.com/macros/s/AKfycbzkE4hLy0zdqQBGlvnny5gs8vud_XT-WauroMf1mvXgxkzSAlMiNLCfpYbZR_Fc8N2YRA/exec?module=post";
   }, []);
 
   const updateStatusProcessing = useCallback(async (row: number, sheetName?: string) => {
@@ -666,7 +666,7 @@ export default function App() {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${extractedTitle || formData.keywordUtama || "Artikel SEO AutoPilot Post Mahadi"}</title>
+    <title>${extractedTitle || formData.keywordUtama || "Artikel SEO AutoPilot Post Mahadi - Indo"}</title>
     <style>
         body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
         h1 { color: #1a1a1a; font-size: 2.5em; }
@@ -740,7 +740,7 @@ export default function App() {
               <FileText className="text-primary w-5 h-5" />
             </div>
             <h1 className="font-bold text-xl tracking-tight bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
-              AutoPilot <span className="text-muted-foreground font-light">Post </span><span className="text-red-600 font-black italic">Mahadi</span>
+              AutoPilot <span className="text-muted-foreground font-light">Post </span><span className="text-red-600 font-black italic">Mahadi - Indo</span>
             </h1>
           </div>
           <div className="flex items-center gap-4 lg:gap-8">
@@ -1218,7 +1218,7 @@ export default function App() {
                <span className="text-[10px] font-black uppercase tracking-[0.5em]">AutoPilot Engine v2.0</span>
             </div>
             <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-[0.2em] opacity-40 text-center">
-              © 2026 AutoPilot Post <span className="text-red-600">Mahadi</span>. PREMIUM AI CONTENT ARCHITECTURE.
+              © 2026 AutoPilot Post <span className="text-red-600">Mahadi - Indo</span>. PREMIUM AI CONTENT ARCHITECTURE.
             </p>
           </div>
         </div>
