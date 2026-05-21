@@ -1150,7 +1150,7 @@ export default function App() {
                         <ScrollArea className="flex-1 h-[calc(100vh-320px)] bg-background">
                           <TabsContent value="preview" className="p-8 m-0 space-y-12">
                             {/* Article Section */}
-                            <div className="bg-card rounded-2xl shadow-xl border-2 border-primary/10 p-10 prose prose-invert prose-blue max-w-none prose-headings:font-black prose-h1:text-4xl prose-h1:tracking-tighter prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:border-b-2 prose-h2:pb-4 prose-h2:border-primary/20 prose-h3:text-xl prose-p:text-foreground/80 prose-p:leading-loose prose-p:text-lg prose-a:text-primary prose-a:font-bold hover:prose-a:text-primary/80 transition-colors">
+                            <div className="bg-card rounded-2xl shadow-xl border-2 border-primary/10 p-5 prose prose-invert prose-blue max-w-none prose-headings:font-black prose-h1:text-2xl prose-h1:tracking-tighter prose-h2:text-lg prose-h2:mt-6 prose-h2:mb-3 prose-h2:border-b-2 prose-h2:pb-4 prose-h2:border-primary/20 prose-h3:text-base prose-p:text-foreground/80 prose-p:leading-relaxed prose-p:text-sm prose-a:text-primary prose-a:font-bold hover:prose-a:text-primary/80 transition-colors">
                               <ReactMarkdown>{result.split("---SEO-DATA-START---")[0]}</ReactMarkdown>
                             </div>
 
