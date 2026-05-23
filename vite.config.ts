@@ -10,6 +10,9 @@ export default defineConfig(({mode}) => {
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
       'process.env.GOOGLE_SCRIPT_URL': JSON.stringify(env.GOOGLE_SCRIPT_URL || env.VITE_GOOGLE_SCRIPT_URL),
+      'process.env.WP_URL': JSON.stringify(env.WP_URL || 'https://indogeotextile.com/'),
+      'process.env.WP_USERNAME': JSON.stringify(env.WP_USERNAME || 'Mahadi'),
+      'process.env.WP_APP_PASSWORD': JSON.stringify(env.WP_APP_PASSWORD || env.WP_PASSWORD || 'TnLC KJvn sZal 3aQs 9YT7 AkVO'),
     },
     resolve: {
       alias: {
